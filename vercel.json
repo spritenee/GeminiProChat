@@ -1,7 +1,7 @@
 {
   "buildCommand": "OUTPUT=vercel astro build",
   "env": {
-    "ACCESS_PASSWORD": "NEXT_PUBLIC_VERCEL_PASSWORD"
+    "ACCESS_PASSWORD": "@SITE_PASSWORD"
   },
   "routes": [
     {
