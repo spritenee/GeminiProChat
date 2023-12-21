@@ -1,16 +1,3 @@
 {
-  "buildCommand": "OUTPUT=vercel astro build",
-  "env": {
-    "ACCESS_PASSWORD": "@SITE_PASSWORD"
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/password",
-      "status": 200,
-      "headers": {
-        "x-vercel-password": "$ACCESS_PASSWORD"
-      }
-    }
-  ]
+  "buildCommand": "OUTPUT=vercel astro build"
 }
